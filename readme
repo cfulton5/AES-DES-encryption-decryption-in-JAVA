@@ -1,0 +1,23 @@
+AES
+support AES-128,AES-192,AES-256 encryption/decryption
+support ECB,CBC mode
+support padding
+
+command arguments:
+JAVA AES inputFile outputFile masterkey Nb Nk Nr iv  encrypt/decrypt
+
+example:
+test.pdf test.enc 000102030405060708090a0b0c0d0e0f 4 10 4 00112233445566778899aabbccddeeff ECB encrypt
+
+
+DES
+
+support DES encryption/decryption
+support ECB mode
+support padding
+
+command arguments:
+JAVA DES inputfile outputfile key encrypt/decrypt
+
+example
+test.pdf test.enc 1100223344556677 encrypt
